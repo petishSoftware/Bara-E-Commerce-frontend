@@ -7566,3 +7566,45 @@ blockquote {
         background: #edce38; }
         .footer-black .copyright-area-wrap .copyright-area .scroll-top span {
           color: #1a2428; }
+
+    
+    /* dashboard.css */
+
+      .dashboard-container {
+        display: flex;
+      }
+
+      .dashboard-nav {
+        width: 200px;
+        height: 100vh;
+        background-color: #333;
+        color: #fff;
+        padding-top: 20px;
+        overflow-y: auto;
+      }
+
+      .dashboard-nav-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .dashboard-nav-item {
+        margin-bottom: 10px;
+      }
+
+      .dashboard-nav-link {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+      }
+
+      .dashboard-nav-link:hover {
+        background-color: #555;
+      }
+
+      .dashboard-content {
+        flex-grow: 1;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
