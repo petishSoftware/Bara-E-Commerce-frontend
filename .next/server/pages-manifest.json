@@ -2,6 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/404": "pages/404.js",
+  "/dashboard/products": "pages/dashboard/products.js",
   "/dashboard/dashboard": "pages/dashboard/dashboard.js",
-  "/404": "pages/404.js"
+  "/dashboard/orders": "pages/dashboard/orders.js",
+  "/dashboard/categories": "pages/dashboard/categories.js",
+  "/dashboard/users": "pages/dashboard/users.js"
 }

@@ -209,3 +209,24 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.chart-row {
+  display: flex;
+  flex: 1;
+}
+
+.chart-container {
+  flex: 1;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.chart-container canvas {
+  max-height: 50vh;
+}
